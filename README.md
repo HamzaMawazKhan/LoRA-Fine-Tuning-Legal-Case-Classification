@@ -17,18 +17,6 @@ A comprehensive toolkit for processing legal documents from PDFs, extracting cas
 - Python 3.8+
 - At least 16GB RAM (32GB recommended for training)
 
-### Dependencies
-
-```bash
-pip install transformers datasets peft accelerate
-pip install PyMuPDF pandas torch
-```
-
-For Apple Silicon:
-```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-```
-
 ## 📊 Dataset Format
 
 The system expects your training data in JSON format with prompt-response pairs:
